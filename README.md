@@ -66,13 +66,13 @@ __Bold text__
 ## Quoting text
 Quoting text is also very common when you want to highligh text from a different author, or copying something from a different source.
 
-> “Don’t let the noise of others’ opinions 
-> drown out your own inner voice.”
+> “Don’t let the noise of others’ opinions drown out your own inner voice.”
 >                           ― Steve Jobs
 
 > Code:
 ```
-> Quoted text
+> “Don’t let the noise of others’ opinions drown out your own inner voice.”
+>                           ― Steve Jobs
 ```
 
 *****
