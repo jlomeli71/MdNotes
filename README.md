@@ -179,10 +179,10 @@ Example:
 
 ## Adding videos
 I do not have a video of my own yet, but you can add any video available on the internet with this format.
-[![Markdown Crash Course]()](https://youtu.be/HUBNt18RFbo)
+[![Markdown Crash Course](https://img.youtube.com/vi/HUBNt18RFbo/default.jpg)](https://youtu.be/HUBNt18RFbo)
 > Code:
 ```
-[![Markdown Crash Course](image link if available)](https://youtu.be/HUBNt18RFbo)
+[![Markdown Crash Course](https://img.youtube.com/vi/HUBNt18RFbo/default.jpg)](https://youtu.be/HUBNt18RFbo)
 ```
 
 ## Including code
