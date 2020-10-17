@@ -12,14 +12,14 @@ I have divided this tutorial in several sections. Each part shows an example of 
 
 ## Contents
 - [Header options](https://github.com/jlomeli71/miniMdTutorial#header-options)
-- [Formating text options](link)
-- [Quoting text](link)
-- [List options](link)
-- [Formating a table](link)
-- [Adding links](link)
-- [Adding images](link)
-- [Adding videos](link)
-- [Including code](link)
+- [Formating text options](https://github.com/jlomeli71/miniMdTutorial#text-options)
+- [Quoting text](https://github.com/jlomeli71/miniMdTutorial#quoting-text)
+- [List options](https://github.com/jlomeli71/miniMdTutorial#lists-options)
+- [Formating a table](https://github.com/jlomeli71/miniMdTutorial#table-format)
+- [Adding links](https://github.com/jlomeli71/miniMdTutorial#adding-links)
+- [Adding images](https://github.com/jlomeli71/miniMdTutorial#adding-images)
+- [Adding videos](https://github.com/jlomeli71/miniMdTutorial#adding-videos)
+- [Including code](https://github.com/jlomeli71/miniMdTutorial#including-code)
 
 *****
 
@@ -27,16 +27,19 @@ I have divided this tutorial in several sections. Each part shows an example of 
 Headers are ussually the first thing you type at the begining of your document. There are several size options dependind on the number of # you type before the text (from 1 to 6). In this example I only show the firt three options.
 
 # Header size 1
+> Code:
 ```
 # Header size 1
 ```
 
 ## Header size 2
+> Code:
 ```
 ## Header size 2
 ```
 
 ### Header size 3
+> Code:
 ```
 ### Header size 3
 ```
@@ -44,26 +47,18 @@ Headers are ussually the first thing you type at the begining of your document. 
 *****
 
 ## Text options
-Formating text is very importnat, to highlight or differentiate from the rest of the text. two common options are tu use _italic_ or __bold__ text.
+Formating text is very importnat, to highlight or differentiate from the rest of the text. two common options are to use the single characters _ or * for _italic text_ or to use the sma echaracters but double for __bold text__.
 
+_italic text_
+> Code:
+```
 _italic text 1_
 ```
-_italic text 1_
-```
 
-*italic text 2*
-```
-*italic text 2*
-```
-
-__bold text 1__ 
+__bold text__ 
+> Code:
 ```
 __bold text 1__
-```
-
-**bold text 2**
-```
-**bold text 2**
 ```
 
 *****
@@ -72,6 +67,8 @@ __bold text 1__
 Quoting text is also very common when you want to highligh text from a different author, or copying something from a different source.
 
 > Quoted text
+
+> Code:
 ```
 > Quoted text
 ```
@@ -79,30 +76,15 @@ Quoting text is also very common when you want to highligh text from a different
 *****
 
 ## Lists options 
-Listing data is also a coomon way to organize objects or elements in a document.
+Listing data is also a comon way to organize objects or elements in a document. You can use -, +, or * characteres
 
 Example using -:
 - list element 1
 - list element 2
+> Code:
 ```
 - list element 1
 - list element 2
-```
-
-Example using +:
-+ list element x
-+ list element y
-```
-+ list element x
-+ list element y
-```
-
-Example using *:
-* list element a
-* list element b
-```
-* list element a
-* list element b
 ```
 
 And if you want to use number your elements in a list is very simple.
@@ -110,6 +92,7 @@ And if you want to use number your elements in a list is very simple.
 Numbered lists:
 1. list element numbered 1
 2. list element numbered 2
+> Code:
 ```
 1. list element numbered 1
 2. list element numbered 2
@@ -121,6 +104,7 @@ Combing lists (sublists)
     + hello
     + world
 - list element 2
+> Code:
 ```
 - list example 1
     + hello
@@ -132,6 +116,7 @@ Combing lists (sublists)
     1. hello
     2. world
 - list element b
+> Code:
 ```
 - list example a
     1. hello
@@ -141,6 +126,7 @@ Combing lists (sublists)
 
 - [ ] Task 1
 - [ ] Task 2 
+> Code:
 ```
 - [ ] Task 1
 - [ ] Task 2 
@@ -156,6 +142,7 @@ Android | iOS | Windows
 Popular apps | Popular apps | Popular apps
 Facebook | Instagram | Flirk
 Hotmail | Yahoo | Gmail
+> Code:
 ```
 Android | iOS | Windows
 --- | --- | ---
@@ -170,6 +157,7 @@ Hotmail | Yahoo | Gmail
 Adding links is very important and not only to add external resources, also to roganize the content of your document.
 
 [Google](http://www.google.com)
+> Code:
 ```
 [Google](http://www.google.com)
 ```
@@ -181,8 +169,8 @@ Adding images if you want to provide graphics, for example I use a logo of a wel
 
 Example:
 ![Cisco Systems](https://www.cisco.com/web/fw/i/logo-open-graph.gif "Cisco Systems")
+> Code:
 ```
-![Desciption](url)
 ![Cisco Systems](https://www.cisco.com/web/fw/i/logo-open-graph.gif "Cisco Systems")
 ```
 
@@ -191,6 +179,7 @@ Example:
 ## Adding videos
 I do not have a video of my own yet, but you can add any video available on the internet with this format.
 [![Some text](image link)](video link)
+> Code:
 ```
 [![Some text](image link)](video link)
 ```
