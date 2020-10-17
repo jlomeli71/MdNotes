@@ -1,8 +1,10 @@
+<!-- This mini Tutorial is part of a series, and created by the owner of the repository. It is not intended to be complete or have all option available, but continues improvent will occur in the future -->
+
 # Markdown mini Tutorial
 
 Markdown is very useful in GitHub readme files, Jupyter Notebooks, and other applications in the web.
 It is a simple way to provide format to documentes, and simpler than formating a traditional web page with html, css.
-You can use any text editor to write markdown, but there are useful tools to see inmediately the ressults of your markdown, for example if you use Chrome as web browser, you can add the app [Minimalist Markdown](https://chrome.google.com/webstore/detail/minimalist-markdown-edito/pghodfjepegmciihfhdipmimghiakcjf?hl).
+You can use any text editor to write markdown, but there are useful tools to see inmediately the ressults of your markdown, for example if you use Chrome as web browser, you can add the app [Minimalist Markdown](https://chrome.google.com/webstore/detail/minimalist-markdown-edito/pghodfjepegmciihfhdipmimghiakcjf?hl). Another exmaple if you use VS Studio you can add the extension Auto-open Markdown Viewer.
 
 I do not intend to present all Markdown options (although I plan to improve it), only some usefull ones, but I encourage anyone reading to explore other tutorials, see markdown files form diverse sources and explore the code, and use it in your own mardown files, it is really fun.
 
@@ -20,6 +22,7 @@ I have divided this tutorial in several sections. Each part shows an example of 
 - [Adding images](#adding-images)
 - [Adding videos](#adding-videos)
 - [Including code](#including-code)
+- [HTML options](#html-options)
 
 *****
 
@@ -178,7 +181,7 @@ Example:
 *****
 
 ## Adding videos
-I do not have a video of my own yet, but you can add any video available on the internet with this format.
+I do not have a video of my own yet, but you can add any video available on the internet with this format. In the meantime I have included a Mardown video from Traversy Media.
 [![Markdown Crash Course](https://img.youtube.com/vi/HUBNt18RFbo/default.jpg)](https://youtu.be/HUBNt18RFbo)
 > Code:
 ```
@@ -203,4 +206,12 @@ We can specify the code type to include some code formating, for example in this
 import math
 def func():
    for if
+```
+## HTML Options
+You can use some html formating options.
+For example you can add coments in your files the same way than in html files. Of couse the comments are not going to be seen on the browser, only your editor.
+<!-- This is a comment -->
+> Code:
+```
+<!-- This is a comment -->
 ```
