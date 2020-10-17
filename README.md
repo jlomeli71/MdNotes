@@ -11,20 +11,20 @@ I have divided this tutorial in several sections. Each part shows an example of 
 *****
 
 ## Contents
-- [Header options](https://github.com/jlomeli71/miniMdTutorial#header-options)
-- [Formating text options](https://github.com/jlomeli71/miniMdTutorial#text-options)
-- [Quoting text](https://github.com/jlomeli71/miniMdTutorial#quoting-text)
-- [List options](https://github.com/jlomeli71/miniMdTutorial#lists-options)
-- [Formating a table](https://github.com/jlomeli71/miniMdTutorial#table-format)
-- [Adding links](https://github.com/jlomeli71/miniMdTutorial#adding-links)
-- [Adding images](https://github.com/jlomeli71/miniMdTutorial#adding-images)
-- [Adding videos](https://github.com/jlomeli71/miniMdTutorial#adding-videos)
-- [Including code](https://github.com/jlomeli71/miniMdTutorial#including-code)
+- [Header options](#header-options)
+- [Formating text options](#text-options)
+- [Quoting text](#quoting-text)
+- [List options](#lists-options)
+- [Formating a table](#table-format)
+- [Adding links](#adding-links)
+- [Adding images](#adding-images)
+- [Adding videos](#adding-videos)
+- [Including code](#including-code)
 
 *****
 
 ## Header options
-Headers are ussually the first thing you type at the begining of your document. There are several size options dependind on the number of # you type before the text (from 1 to 6). In this example I only show the firt three options.
+Headers are ussually the first thing you type at the begining of your document. There are several size options dependind on the number of # you type before the text (from 1 to 6). In this example I only show the first three options.
 
 # Header size 1
 > Code:
@@ -47,18 +47,18 @@ Headers are ussually the first thing you type at the begining of your document. 
 *****
 
 ## Text options
-Formating text is very importnat, to highlight or differentiate from the rest of the text. two common options are to use the single characters _ or * for _italic text_ or to use the sma echaracters but double for __bold text__.
+Formating text is very important, to highlight or differentiate from the rest of the text. Two common options are to use the single characters _ or * for _italic text_ or to use the same characters but double for __bold text__.
 
-_italic text_
+_Italic text_
 > Code:
 ```
-_italic text 1_
+_Italic text_
 ```
 
-__bold text__ 
+__Bold text__ 
 > Code:
 ```
-__bold text 1__
+__Bold text__
 ```
 
 *****
@@ -66,7 +66,9 @@ __bold text 1__
 ## Quoting text
 Quoting text is also very common when you want to highligh text from a different author, or copying something from a different source.
 
-> Quoted text
+> “Don’t let the noise of others’ opinions 
+> drown out your own inner voice.”
+>                           ― Steve Jobs
 
 > Code:
 ```
@@ -79,57 +81,56 @@ Quoting text is also very common when you want to highligh text from a different
 Listing data is also a comon way to organize objects or elements in a document. You can use -, +, or * characteres
 
 Example using -:
-- list element 1
-- list element 2
+- list element
+- list element
 > Code:
 ```
-- list element 1
-- list element 2
+- list element
+- list element
 ```
 
 And if you want to use number your elements in a list is very simple.
 
 Numbered lists:
-1. list element numbered 1
-2. list element numbered 2
+1. numbered element
+2. numbered element
 > Code:
 ```
-1. list element numbered 1
-2. list element numbered 2
-
+1. numbered element
+2. numbered element
 ```
 
 Combing lists (sublists)
-- list example 1
+- list element
     + hello
     + world
-- list element 2
+- list element
 > Code:
 ```
-- list example 1
+- list element
     + hello
     + world
-- list element 2
+- list element
 ```
 
-- list example a
+- list element
     1. hello
     2. world
-- list element b
+- list element
 > Code:
 ```
-- list example a
+- list element
     1. hello
     2. world
-- list element b
+- list element
 ```
 
-- [ ] Task 1
-- [ ] Task 2 
+- [ ] list element
+- [ ] list element
 > Code:
 ```
-- [ ] Task 1
-- [ ] Task 2 
+- [ ] list element
+- [ ] list element
 ```
 
 *****
