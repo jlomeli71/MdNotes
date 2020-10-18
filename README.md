@@ -33,19 +33,19 @@ I have divided this tutorial in several sections. Each part shows an example of 
 Headers are ussually the first thing you type at the begining of your document. There are several size options dependind on the number of # you type before the text (from 1 to 6). In this example I only show the first three options.
 
 # Header size 1
-> Code:
+> _Code example:_
 ```
 # Header size 1
 ```
 
 ## Header size 2
-> Code:
+> _Code example:_
 ```
 ## Header size 2
 ```
 
 ### Header size 3
-> Code:
+> _Code example:_
 ```
 ### Header size 3
 ```
@@ -56,13 +56,13 @@ Headers are ussually the first thing you type at the begining of your document. 
 Formating text is very important, to highlight or differentiate from the rest of the text. Two common options are to use the single characters _ or * for _italic text_ or to use the same characters but double for __bold text__.
 
 _Italic text_
-> Code:
+> _Code example:_
 ```
 _Italic text_
 ```
 
 __Bold text__ 
-> Code:
+> _Code example:_
 ```
 __Bold text__
 ```
@@ -75,9 +75,9 @@ Quoting text is also very common when you want to highligh text from a different
 > “Don’t let the noise of others’ opinions drown out your own inner voice.”
 >                           ― Steve Jobs
 
-> Code:
+> _Code example:_
 ```
-> “Don’t let the noise of others’ opinions drown out your own inner voice.”
+> “Don’t let the noise of others’ opinions drown out your own inner voice.”           
 >                           ― Steve Jobs
 ```
 
@@ -89,7 +89,7 @@ Listing data is also a comon way to organize objects or elements in a document. 
 Example using -:
 - list element
 - list element
-> Code:
+> _Code example:_
 ```
 - list element
 - list element
@@ -100,7 +100,7 @@ And if you want to use number your elements in a list is very simple.
 Numbered lists:
 1. numbered element
 2. numbered element
-> Code:
+> _Code example:_
 ```
 1. numbered element
 2. numbered element
@@ -111,7 +111,7 @@ Combing lists (sublists)
     + hello
     + world
 - list element
-> Code:
+> _Code example:_
 ```
 - list element
     + hello
@@ -123,7 +123,7 @@ Combing lists (sublists)
     1. hello
     2. world
 - list element
-> Code:
+> _Code example:_
 ```
 - list element
     1. hello
@@ -133,12 +133,12 @@ Combing lists (sublists)
 
 ## Task list
 Lists can also be useful to specify if a task has been completed or not.
-- [x] list completed
-- [ ] list not element
-> Code:
+- [x] element completed
+- [ ] element not completed
+> _Code example:_
 ```
-- [x] list completed
-- [ ] list not element
+- [x] element completed
+- [ ] element not completed
 ```
 
 *****
@@ -148,15 +148,13 @@ Creating a table is very easy in markdown, and very useful to organize informati
 
 Android | iOS | Windows
 --- | --- | ---
-Popular apps | Popular apps | Popular apps
-Facebook | Instagram | Flirk
+Facebook | Instagram | Twitter
 Hotmail | Yahoo | Gmail
 > Code:
 ```
 Android | iOS | Windows
 --- | --- | ---
-Popular apps | Popular apps | Popular apps
-Facebook | Instagram | Flirk
+Facebook | Instagram | Twitter
 Hotmail | Yahoo | Gmail
 ```
 
@@ -166,7 +164,7 @@ Hotmail | Yahoo | Gmail
 Adding links is very important and not only to add external resources, also to roganize the content of your document.
 
 [Google](http://www.google.com)
-> Code:
+> _Code example:_
 ```
 [Google](http://www.google.com)
 ```
@@ -176,23 +174,26 @@ Adding links is very important and not only to add external resources, also to r
 ## Adding images
 Adding images if you want to provide graphics, for example I use a logo of a well known networking company on this example.
 
-Example:
-![Cisco Systems](https://www.cisco.com/web/fw/i/logo-open-graph.gif "Cisco Systems")
-> Code:
+![Cisco](https://www.cisco.com/web/fw/i/logo-open-graph.gif "Cisco Systems")
+> _Code example:_
 ```
-![Cisco Systems](https://www.cisco.com/web/fw/i/logo-open-graph.gif "Cisco Systems")
+![Cisco](https://www.cisco.com/web/fw/i/logo-open-graph.gif "Cisco Systems")
 ```
 
 *****
 
 ## Adding videos
 I do not have a video of my own yet, but you can add any video available on the internet with this format. In the meantime I have included a Mardown video by [Traversy Media](https://www.traversymedia.com/).
-[![Markdown Crash Course](https://img.youtube.com/vi/HUBNt18RFbo/default.jpg)](https://youtu.be/HUBNt18RFbo)
-> Code:
-```
-[![Markdown Crash Course](https://img.youtube.com/vi/HUBNt18RFbo/default.jpg)](https://youtu.be/HUBNt18RFbo)
-```
 
+[![Markdown Crash Course](https://img.youtube.com/vi/HUBNt18RFbo/default.jpg)](https://youtu.be/HUBNt18RFbo)
+> _Code example:_
+```
+[![Markdown Crash Course](https://img.youtube.com/vi/HUBNt18RFbo/default.jpg)](https://youtu.be/HUBNt18RFbo)
+```
+A special note here when adding Youtube videos. The format is:
+```
+[![Video description](https://img.youtube.com/vi/<video id>/<default.jpg or 0.jpg will be enough>)](https://youtu.be/<video id>)   
+```
 ## Including code
 Adding code is very common if you are related to software programming or devops.
 
@@ -216,7 +217,15 @@ def func():
 You can use some html formating options.
 For example you can add coments in your files the same way than in html files. Of couse the comments are not going to be seen on the browser, only your editor.
 <!-- This is a comment -->
-> Code:
+> _Code example:_
 ```
 <!-- This is a comment -->
+```
+Also you can add headers in HTML format.
+
+<h3>Hello world</h3>
+> _Code example:_
+
+```
+<h3>Hello world</h3>
 ```
