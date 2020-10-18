@@ -224,6 +224,7 @@ For example you can add coments in your files the same way than in html files. O
 Also you can add headers in HTML format.
 
 <h3>Hello world</h3>
+
 > _Code example:_
 
 ```
