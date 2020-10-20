@@ -26,11 +26,13 @@ I have divided this tutorial in several sections. Each part shows an example of 
 - [Adding videos](#adding-videos)
 - [Including code](#including-code)
 - [HTML options](#html-options)
+- [Terminology](#terminology)
+- [Additional references](#additional-references)
 
 *****
 
 ## Header options
-Headers are ussually the first thing you type at the begining of your document. There are several size options dependind on the number of # you type before the text (from 1 to 6). In this example I only show the first three options.
+Headers are ussually the first thing you type at the begining of your document. There are several size options dependind on the number of # (hashtags) you type before the text (from 1 to 6). In this example I only show the first three options.
 
 # Header size 1
 > _Code example:_
@@ -172,12 +174,14 @@ Adding links is very important and not only to add external resources, also to r
 *****
 
 ## Adding images
-Adding images if you want to provide graphics, for example I use a logo of a well known networking company on this example.
+Adding images if you want to provide graphics.
 
-![Cisco](https://www.cisco.com/web/fw/i/logo-open-graph.gif "Cisco Systems")
-> _Code example:_
+![Markdown](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/312px-Markdown-mark.svg.png
+ "Markdown logo")
+ > _Code example:_
 ```
-![Cisco](https://www.cisco.com/web/fw/i/logo-open-graph.gif "Cisco Systems")
+![Markdown](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/312px-Markdown-mark.svg.png
+ "Markdown logo")
 ```
 
 *****
@@ -197,16 +201,16 @@ A special note here when adding Youtube videos. The format is:
 ## Including code
 Adding code is very common if you are related to software programming or devops.
 
-For one line code we use a single quote at the beggining and end of the code:
+For one line code we use a single back quote (backtick) at the beggining and end of the code:
 `single line of code`
 
-For block of code we triple quotes at the beggining and end of the code:
+For block of code we triple back quotes at the begining and end of the code:
 ```
 import math
 def func():
    for if
 ```
-We can specify the code type to include some code formating, for example in this case we specify python after the first three quotes:
+We can specify the code type to include some code formating, for example in this case we specify python after the first three back quotes:
 ``` python
 import math
 def func():
@@ -230,3 +234,26 @@ Also you can add headers in HTML format.
 ```
 <h3>Hello world</h3>
 ```
+
+*****
+
+## Terminology
+
+*****
+
+## Additional references
+
+[Markdown on Wikipedia](https://en.wikipedia.org/wiki/Markdown).
+
+What is Markdown? by [Codecademy](https://www.codecademy.com/).
+
+[![Markdown Crash Course](https://img.youtube.com/vi/f49LJV1i-_w/default.jpg)](https://youtu.be/f49LJV1i-_w)
+
+
+Markdown Crash Course by [Traversy Media](https://www.traversymedia.com/).
+
+[![Markdown Crash Course](https://img.youtube.com/vi/HUBNt18RFbo/default.jpg)](https://youtu.be/HUBNt18RFbo)
+
+*****
+
+ <!--Also pending to add separators, strikethrough, escape character-->
