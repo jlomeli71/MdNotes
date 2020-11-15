@@ -1,6 +1,6 @@
-<!-- This mini Tutorial is part of a series, and created by the owner of the repository. It is not intended to be complete or have all option available, but continues improvent will occur in the future -->
+<!-- It is not intended to be complete or have all option available, but continues improvent will occur in the future -->
 
-# Markdown mini Tutorial
+# Markdown Notes
 
 Markdown is very useful in GitHub readme files, Jupyter Notebooks, blogs, wikis, and other applications in the web.
 
